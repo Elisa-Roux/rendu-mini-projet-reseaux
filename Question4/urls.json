@@ -1,0 +1,25 @@
+{
+
+  "sites": [
+    "https://www.google.com",
+    "https://www.youtube.com",
+    "https://www.facebook.com",
+    "https://www.amazon.com",
+    "https://www.wikipedia.org",
+    "https://www.reddit.com",
+    "https://www.twitter.com",
+    "https://www.yahoo.com",
+    "https://www.gmail.com",
+    "https://www.dropbox.com",
+    "https://www.slack.com",
+    "https://www.spotify.com",
+    "https://www.github.com",
+    "https://www.wikipedia.fr/Fleur",
+    "https://www.wikipedia.fr/Soleil",
+    "https://www.wikipedia.fr/Eau",
+    "https://www.wikipedia.fr/Vent",
+    "https://www.wikipedia.fr/Mer",
+    "https://www.wikipedia.fr/Feu"
+  ]
+
+}

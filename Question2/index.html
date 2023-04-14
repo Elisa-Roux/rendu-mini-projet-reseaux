@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Statistiques</title>
+    <style>
+        h1 {
+            color: navy;
+            font-size: 28px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: lightgray;
+            border: none;
+            color: navy;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            button:hover {
+                background-color: navy;
+                color: white;
+            }
+
+        label {
+            font-size: 18px;
+            color: lightblue;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid lightgray;
+            width: 300px;
+        }
+
+        #buttons{
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Statistiques pour la question 2</h1>
+    <p >Choisissez un type de statistique a voir :</p>
+    <button onclick="window.location.href='http://localhost:8080/ageStat'"> Voir l'age moyen des pages en secondes </button>
+    <button onclick="window.location.href='http://localhost:8080/standardDevStat'">Voir l'ecart type de ces pages en secondes </button>
+    <br><br>
+  
+    
+</body>
+</html>

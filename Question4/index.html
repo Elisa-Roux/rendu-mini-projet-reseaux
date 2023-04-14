@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Statistiques</title>
+    <style>
+        h1 {
+            color: navy;
+            font-size: 28px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: lightgray;
+            border: none;
+            color: navy;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            button:hover {
+                background-color: navy;
+                color: white;
+            }
+
+        label {
+            font-size: 18px;
+            color: lightblue;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid lightgray;
+            width: 300px;
+        }
+
+        #buttons{
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Statistiques</h1>
+  
+    <button onclick="window.location.href='http://localhost:8080/serverStat'"> Voir les stats de la question 1 </button>
+    <button onclick="window.location.href='http://localhost:8080/ageStat'"> Voir les stats de la question 2 </button>
+    <button onclick="window.location.href='http://localhost:8080/xssStat'">Voir les sites qui  utilisent une protection XSS</button>
+    <button onclick="window.location.href='http://localhost:8080/cacheControlStat'">Voir les stats liees au controle du cache</button>
+    <br><br>
+
+
+</body>
+</html>
